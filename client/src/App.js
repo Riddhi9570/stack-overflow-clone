@@ -1,9 +1,10 @@
 import './App.css';
+import navbar from './components/navbar/navbar';
 
 function App() {
   return (
     <div className="App">
-      <h1>Stack Overflow Clone</h1>
+      <navbar />
     </div>
   );
 }
