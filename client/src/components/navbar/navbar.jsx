@@ -8,7 +8,7 @@ import './Navbar.css'
 
 const Navbar = () => {
 
-  var User= null
+  var User= 123
 
   return (
     <nav>
@@ -26,7 +26,7 @@ const Navbar = () => {
             { User == null ?
               <Link to='/Auth' className='nav-item nav-links'>Log in</Link>:
               <>
-              <Link to='/'><Avatar>M</Avatar></Link>
+              <Avatar backgroundColor='#009dff' px="10px" py="7px" borderRadius="50%" color='white'><Link to='/' style={{color:"white", textDecoration:'none'}}>R</Link></Avatar>
               <button className='nav-item nav-links'>Log Out</button>
               </>
 
